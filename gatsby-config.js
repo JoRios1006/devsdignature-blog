@@ -9,12 +9,12 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Devs Dig Nature`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jo Rios`,
+      summary: `who likes to code and talk about nature, gym, crypto, and the future.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Devs Dig Nature is a unique blog exploring web development, fitness, cryptocurrency, and the fascinating world of plants and fungi. Join our community for engaging content, insightful discussions, and inspiration to fuel your diverse interests.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,

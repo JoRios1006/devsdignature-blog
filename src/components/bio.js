@@ -32,7 +32,7 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
+      <StaticImage 
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
@@ -46,9 +46,6 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
         </p>
       )}
     </div>
