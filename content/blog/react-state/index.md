@@ -24,7 +24,7 @@ The `useReducer` hook is part of the React library and provides a more organized
 ## Creating the Cart Context
 
 To make the cart state and dispatch function available to all components that need it, we'll create a cart context using `React.createContext` to share the cart state and dispatch function among our components. Create a `CartContext.js` file with the following content:
-
+      
 ```js
 // CartContext.js
 import { createContext } from 'react';
